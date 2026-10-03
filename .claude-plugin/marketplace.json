@@ -1,0 +1,11 @@
+{
+  "name": "oo-design-playground",
+  "owner": { "name": "Oisin O'Muiri" },
+  "plugins": [
+    {
+      "name": "design-playground",
+      "source": "./plugins/design-playground",
+      "description": "Scaffold a hidden, in-repo playground route to explore non-destructive design variations of a real production component."
+    }
+  ]
+}
