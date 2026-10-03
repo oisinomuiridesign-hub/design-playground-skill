@@ -10,27 +10,28 @@ The skill has Claude scaffold a hidden `/playground/<feature>` route inside your
 
 The payoff: a workbench you come back to months later to steal your own concepts.
 
+Follows the open [Agent Skills](https://agentskills.io) format, so it works in Claude Code, claude.ai, Claude Desktop and other agents that support skills.
+
 Adapted from Ridd's ([@ridd_design](https://x.com/ridd_design)) AI design workflow.
 
 ## Install
 
-### Claude Code (plugin marketplace)
-
-```
-/plugin marketplace add oisinomuiridesign-hub/design-playground-skill
-/plugin install design-playground@oo-design-playground
-```
-
-### Manual (Claude Code)
+**Skills CLI (Claude Code, Codex, Cursor, and other agents)**
 
 ```bash
-git clone https://github.com/oisinomuiridesign-hub/design-playground-skill.git
-cp -r design-playground-skill/plugins/design-playground/skills/building-design-playgrounds ~/.claude/skills/
+npx skills add oisinomuiridesign-hub/design-playground-skill
 ```
 
-### claude.ai / Claude Desktop
+**claude.ai / Claude Desktop**
 
-Zip `plugins/design-playground/skills/building-design-playgrounds/` and upload it under **Settings → Capabilities → Skills**.
+1. Download `building-design-playgrounds.zip` from the [latest release](https://github.com/oisinomuiridesign-hub/design-playground-skill/releases/latest).
+2. Go to **Settings → Capabilities → Skills → Upload skill** and pick the zip.
+
+**Manual (Claude Code)**
+
+```bash
+git clone https://github.com/oisinomuiridesign-hub/design-playground-skill.git ~/.claude/skills/building-design-playgrounds
+```
 
 ## Use
 

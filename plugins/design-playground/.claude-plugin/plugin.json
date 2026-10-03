@@ -1,7 +1,0 @@
-{
-  "name": "design-playground",
-  "version": "1.0.0",
-  "description": "Scaffold a hidden, in-repo playground route to explore non-destructive design variations of a real production component.",
-  "author": { "name": "Oisin O'Muiri" },
-  "license": "MIT"
-}
