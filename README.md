@@ -19,8 +19,11 @@ Adapted from Ridd's ([@ridd_design](https://x.com/ridd_design)) AI design workfl
 **Skills CLI (Claude Code, Codex, Cursor, and other agents)**
 
 ```bash
-npx skills add oisinomuiridesign-hub/design-playground-skill
+npx skills add oisinomuiridesign-hub/design-playground-skill        # this project only
+npx skills add oisinomuiridesign-hub/design-playground-skill -g     # all projects
 ```
+
+Needs Node.js 18+. The CLI asks which agents to install to.
 
 **claude.ai / Claude Desktop**
 
